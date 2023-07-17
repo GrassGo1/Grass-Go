@@ -16,6 +16,11 @@ ENC_KEY= # Encryption Key (32 byte)
 ENC_IV= # Encryption IV (16 byte)
 ```
 
+Make sure to install all depencies as well, by running:
+```bash
+npm install
+```
+
 ## Getting Started
 
 Run the development server:
