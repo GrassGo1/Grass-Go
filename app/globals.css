@@ -1,8 +1,8 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,41 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+
+.user-border {
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input {
+    border: 1px solid black;
+    width: 200px;
+}
+
+form button {
+    width: 100px;
+    color: white;
+    background-color: green;
+}
+
+div i {
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.user-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
